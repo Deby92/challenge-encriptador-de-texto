@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+* {
+    background-color: aquamarine;
+    padding: 0;
+    margin:0;
+}
+body {
+    font-family: "Inter", sans-serif;
+}
+header{
+    padding: 2% 0% 0% 15%;
+
+}
+
+footer{
+    background-color: blueviolet;
+    padding: 24px;
+    color: beige;
+    text-align: center;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    font-weight: 400px;
+
+
+}
