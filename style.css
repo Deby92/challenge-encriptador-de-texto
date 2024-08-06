@@ -2,27 +2,21 @@
 
 
 
-* {
-    background-color: aquamarine;
-    padding: 0;
-    margin:0;
-}
 body {
     font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
 }
-header{
-    padding: 2% 0% 0% 15%;
-
+textarea {
+    width: 500px;
+    height: 400px;
+    margin: 20px;
+    border: none;
 }
-
-footer{
-    background-color: blueviolet;
-    padding: 24px;
-    color: beige;
-    text-align: center;
-    font-family:'Courier New', Courier, monospace;
-    font-size: 1.5rem;
-    font-weight: 400px;
-
-
+button {
+    margin: 15px;
+    display:flex;
 }

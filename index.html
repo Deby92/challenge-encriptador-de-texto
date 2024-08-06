@@ -3,26 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
     <title>Encriptador de texto</title>
   </head>
   <body>
-    
     <header>
-      <nav>Alura img</nav>
+      <nav><a href="/images/image.png"></a></nav>
     </header>
     <main>
-        <section>
-            <h1>Encriptador de texto</h1>
-            <input type="text" placeholder="Escribe el texto aqui">
-            <button>Cifrar</button>
-            <button>Descifrar</button>
-            <h2>Resultado</h2>
-        </section>
+      <section>
+        <h1>Encriptador de Textos</h1>
+        <textarea
+          id="inputText"
+          placeholder="Ingrese el texto aquí..."
+        ></textarea>
+        <textarea
+          id="outputText"
+          placeholder="Texto encriptado/desencriptado aparecerá aquí..."
+          readonly
+        ></textarea>
+        <button onclick="encriptar()">Encriptar</button>
+        <button onclick="desencriptar()">Desencriptar</button>
+        <button onclick="copiarTexto()">Copiar Texto Encriptado</button>
 
+      </section>
     </main>
     <footer>
-        <p>Desarrollado por <a href="https://github.com/Deby92" target="_blank">Debora Cantuarias</a></p>
+      <p>
+        Desarrollado por
+        <a href="https://github.com/Deby92" target="_blank"
+          >Debora Cantuarias</a
+        >
+      </p>
     </footer>
   </body>
   <script src="/main.js"></script>
