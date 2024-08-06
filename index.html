@@ -8,7 +8,7 @@
   </head>
   <body>
     <header>
-      <nav><a href="/images/image.png"></a></nav>
+      <nav><a href="/images/image.png"></a>Alura</nav>
     </header>
     <main>
       <section class="section-text">
@@ -17,20 +17,24 @@
           <textarea
             class="inputText"
             id="inputText"
-            placeholder="Ingrese el texto aquí..."
+            placeholder="Ingrese el texto aquí"
           ></textarea>
-          <button onclick="encriptar()">Encriptar</button>
-          <button onclick="desencriptar()">Desencriptar</button>
+          <div class="container-buttons">
+            <button class="encriptar" onclick="encriptar()">Encriptar</button>
+            <button class="desencriptar" onclick="desencriptar()">
+              Desencriptar
+            </button>
+          </div>
         </div>
         <div class="container-outputText">
           <textarea
             class="outputText"
             id="outputText"
-            placeholder="Texto encriptado/desencriptado aparecerá aquí..."
+            placeholder="Texto encriptado/desencriptado aparecerá aquí"
             readonly
           ></textarea>
 
-          <button onclick="copiarTexto()">Copiar Texto Encriptado</button>
+          <button class="copiarTexto" onclick="copiarTexto()">Copiar Texto Encriptado</button>
         </div>
       </section>
     </main>

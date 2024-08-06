@@ -5,8 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     flex-direction: column;
+    background-color: #E5E5E5;
 }
 textarea {
     width: 500px;
@@ -14,10 +14,13 @@ textarea {
     margin: 50px;
     border: none;
     padding: 10px;
+    background-color: #E5E5E5;
+
 }
-button {
+.button {
     margin: 15px;
     display:flex;
+    padding: 24px;
 }
 .section-text{
     display: flex;
@@ -26,6 +29,7 @@ button {
 .inputText{
     width: 680px;
     height: 288px;
+    font-size: 32px;
 }
 .outputText{
     width: 400px;
@@ -34,4 +38,42 @@ button {
     border: solid blue;
     padding: 10px;
     margin: 15px;
+    font-size: 24px;
+}
+.container-inputText{
+    margin: 30px;
+}
+.container-outputText{
+    margin: 30px;
+}
+.nav{
+    background-color: aquamarine;
+    margin: 20px;
+}
+.container-buttons{
+    display: flex;
+    
+}
+.encriptar{
+    padding: 8px;
+    border-radius: 27px;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    margin: 24px;
+}
+.desencriptar{
+    padding: 8px;
+    border-radius: 27px;
+    width: 328px;
+    height: 67px;
+    font-size: 16px;
+    margin: 24px;
+}
+.copiarTexto{
+    padding: 8px;
+    border-radius: 27px;
+    width: 336px;
+    height: 67px;
+    font-size: 16px;
 }
