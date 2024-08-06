@@ -11,21 +11,27 @@
       <nav><a href="/images/image.png"></a></nav>
     </header>
     <main>
-      <section>
-        <h1>Encriptador de Textos</h1>
-        <textarea
-          id="inputText"
-          placeholder="Ingrese el texto aquí..."
-        ></textarea>
-        <textarea
-          id="outputText"
-          placeholder="Texto encriptado/desencriptado aparecerá aquí..."
-          readonly
-        ></textarea>
-        <button onclick="encriptar()">Encriptar</button>
-        <button onclick="desencriptar()">Desencriptar</button>
-        <button onclick="copiarTexto()">Copiar Texto Encriptado</button>
+      <section class="section-text">
+        <div class="container-inputText">
+          <h1>Encriptador de Textos</h1>
+          <textarea
+            class="inputText"
+            id="inputText"
+            placeholder="Ingrese el texto aquí..."
+          ></textarea>
+          <button onclick="encriptar()">Encriptar</button>
+          <button onclick="desencriptar()">Desencriptar</button>
+        </div>
+        <div class="container-outputText">
+          <textarea
+            class="outputText"
+            id="outputText"
+            placeholder="Texto encriptado/desencriptado aparecerá aquí..."
+            readonly
+          ></textarea>
 
+          <button onclick="copiarTexto()">Copiar Texto Encriptado</button>
+        </div>
       </section>
     </main>
     <footer>

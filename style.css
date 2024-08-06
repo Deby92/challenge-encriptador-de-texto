@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-
 body {
     font-family: "Inter", sans-serif;
     display: flex;
@@ -13,10 +11,27 @@ body {
 textarea {
     width: 500px;
     height: 400px;
-    margin: 20px;
+    margin: 50px;
     border: none;
+    padding: 10px;
 }
 button {
     margin: 15px;
     display:flex;
+}
+.section-text{
+    display: flex;
+}
+
+.inputText{
+    width: 680px;
+    height: 288px;
+}
+.outputText{
+    width: 400px;
+    height: 844px;
+    border-radius: 32px;
+    border: solid blue;
+    padding: 10px;
+    margin: 15px;
 }
