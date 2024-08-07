@@ -28,12 +28,12 @@ textarea {
 
 .inputText{
     width: 680px;
-    height: 288px;
-    font-size: 32px;
+    height: 500px;
+    font-size: 23px;
 }
 .outputText{
-    width: 400px;
-    height: 844px;
+    width: 500px;
+    height: 644px;
     border-radius: 32px;
     border: solid blue;
     padding: 10px;
@@ -41,17 +41,24 @@ textarea {
     font-size: 24px;
 }
 .container-inputText{
-    margin: 30px;
+    margin: 8px;
 }
 .container-outputText{
-    margin: 30px;
+    margin: 8px;
 }
-.nav{
+nav{
     background-color: aquamarine;
-    margin: 20px;
+    margin: 1px;
+    font-size: 13px;
+}
+.navbar{
+    background-color: #413C58;
+    
+    
 }
 .container-buttons{
     display: flex;
+    margin-top: 58px;
     
 }
 .encriptar{
@@ -73,7 +80,9 @@ textarea {
 .copiarTexto{
     padding: 8px;
     border-radius: 27px;
-    width: 336px;
+    width: 328px;
     height: 67px;
     font-size: 16px;
+    display: block;
+    margin-left: 17px;
 }
