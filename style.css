@@ -6,7 +6,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #E5E5E5;
+    background-color: #413C58;
 }
 textarea {
     width: 500px;
@@ -14,7 +14,7 @@ textarea {
     margin: 50px;
     border: none;
     padding: 10px;
-    background-color: #E5E5E5;
+    background-color: #353A47;
 
 }
 .button {
@@ -35,7 +35,7 @@ textarea {
     width: 500px;
     height: 644px;
     border-radius: 32px;
-    border: solid blue;
+    border: solid 2px #4E5166;
     padding: 10px;
     margin: 15px;
     font-size: 24px;
@@ -47,15 +47,12 @@ textarea {
     margin: 8px;
 }
 nav{
-    background-color: aquamarine;
     margin: 1px;
-    font-size: 13px;
+    font-size: 20px;
+    color: #E5E5E5;
+
 }
-.navbar{
-    background-color: #413C58;
-    
-    
-}
+
 .container-buttons{
     display: flex;
     margin-top: 58px;
