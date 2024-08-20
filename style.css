@@ -30,6 +30,7 @@ textarea {
     width: 680px;
     height: 500px;
     font-size: 23px;
+    color: #E5E5E5;
 }
 .outputText{
     width: 500px;
@@ -39,23 +40,32 @@ textarea {
     padding: 10px;
     margin: 15px;
     font-size: 24px;
+    color:#E5E5E5;
 }
 .container-inputText{
     margin: 8px;
 }
+textarea:focus {
+    outline: none;
+}
+
 .container-outputText{
     margin: 8px;
 }
+
 nav{
     margin: 1px;
     font-size: 20px;
     color: #E5E5E5;
 
 }
-
+.texto-info{
+    margin-left: 50px;
+    color: gray;
+}
 .container-buttons{
     display: flex;
-    margin-top: 58px;
+    margin-top: 20px;
     
 }
 .encriptar{
