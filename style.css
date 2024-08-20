@@ -15,6 +15,7 @@ textarea {
     border: none;
     padding: 10px;
     background-color: #353A47;
+    text-transform: lowercase;
 
 }
 .button {
@@ -31,6 +32,7 @@ textarea {
     height: 500px;
     font-size: 23px;
     color: #E5E5E5;
+    text-transform: lowercase;
 }
 .outputText{
     width: 500px;
