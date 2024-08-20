@@ -53,12 +53,24 @@ textarea:focus {
     margin: 8px;
 }
 
-nav{
+.nav{
     margin: 1px;
-    font-size: 20px;
+    font-size: 16px;
     color: #E5E5E5;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
 
 }
+
+.logo{
+    margin-right: 20px;
+    margin-left: 0px;
+    padding: 2px;
+    font-size: 2px;
+    
+}
+
 .texto-info{
     margin-left: 50px;
     color: gray;
@@ -84,7 +96,7 @@ nav{
     font-size: 16px;
     margin: 24px;
 }
-.copiarTexto{
+.btn-copiarTexto{
     padding: 8px;
     border-radius: 27px;
     width: 328px;
@@ -92,4 +104,7 @@ nav{
     font-size: 16px;
     display: block;
     margin-left: 17px;
+}
+a{
+    text-decoration: none;
 }

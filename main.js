@@ -17,16 +17,29 @@ function desencriptar() {
                                  .replace(/ufat/g, 'u');
     document.getElementById('outputText').value = decryptedText;
 }
-function copiarTexto() {
-    const outputText = document.getElementById('outputText');
-    outputText.select();
-    outputText.setSelectionRange(0, 99999); // Para dispositivos móviles
+// function copiarTexto() {
+//     const outputText = document.getElementById('outputText');
+//     outputText.select();
+//     outputText.setSelectionRange(0, 99999);
 
-    navigator.clipboard.writeText(outputText.value)
-        .then(() => {
-            alert("Texto copiado al portapapeles!");
-        })
-        .catch(err => {
-            console.error("Error al copiar el texto: ", err);
-        });
+//     navigator.clipboard.writeText(outputText.value)
+//         .then(() => {
+//             alert("Texto copiado al portapapeles!");
+//         })
+//         .catch(err => {
+//             console.error("Error al copiar el texto: ", err);
+//         });
+// }
+
+function copiarTexto() {
+    const texto = outputText.value;
+    const botonCopiar = document.querySelector('.btn-copiarTexto');
+
+    navigator.clipboard.writeText(texto).then(() => {
+        botonCopiar.textContent = "¡Copiado!";
+        botonCopiar.classList.add('copiado');
+        botonCopiar.disabled = true; 
+    })
+    
 }
+
