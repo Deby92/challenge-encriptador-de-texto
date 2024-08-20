@@ -30,9 +30,10 @@ textarea {
 .inputText{
     width: 680px;
     height: 500px;
+    border-radius: 32px;
     font-size: 23px;
     color: #E5E5E5;
-    text-transform: lowercase;
+
 }
 .outputText{
     width: 500px;
